@@ -14,22 +14,22 @@ export default function TestimonialsSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
           className="text-center mb-16"
         >
           <span className="inline-block rounded-full bg-amber-50 border border-amber-200 px-4 py-1.5 text-sm font-medium text-amber-700 mb-4">
             Trustpilot Average 4.9/5
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            IPTV UK Reviews &mdash; What British Subscribers{" "}
-            <span className="gradient-text">Actually Say</span>
+            British IPTV Reviews &mdash; What 50,000 UK{" "}
+            <span className="gradient-text">Subscribers Say</span>
           </h2>
           <p className="mx-auto max-w-xl text-lg text-muted">
-            Real{" "}
+            Real feedback from verified customers — our{" "}
             <SectionLink href="/#testimonials" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
               IPTV reviews
             </SectionLink>{" "}
-            from verified customers across England, Scotland, Wales and Northern Ireland — Trustpilot average holds at 4.9 out of 5.
+            on Trustpilot hold an average of 4.9 out of 5.
           </p>
         </motion.div>
 
@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
               key={testimonial.name}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
               transition={{ delay: i * 0.05 }}
               className="group relative rounded-2xl border border-violet-100/50 bg-white p-6 transition-all duration-500 hover:border-violet-200 hover:shadow-lg hover:shadow-violet-100/40 premium-card"
             >
@@ -90,7 +90,7 @@ export default function TestimonialsSection() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
           className="mt-12 text-center"
         >
           <SectionLink

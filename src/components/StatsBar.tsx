@@ -6,7 +6,7 @@ import { STATS } from "@/lib/constants";
 
 function AnimatedNumber({ value }: { value: string }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, amount: 0.2, margin: "0px 0px -10% 0px" });
+  const inView = useInView(ref, { once: true, amount: 0, margin: "0px 0px 200px 0px" });
   const numericMatch = value.match(/[\d,]+/);
   const numericStr = numericMatch ? numericMatch[0] : "";
   const prefix = numericStr ? value.slice(0, value.indexOf(numericStr)) : "";
@@ -58,7 +58,7 @@ export default function StatsBar() {
               key={stat.label}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2, margin: "0px 0px -10% 0px" }}
+              viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
               transition={{ delay: i * 0.04, duration: 0.35 }}
               className="relative text-center"
             >

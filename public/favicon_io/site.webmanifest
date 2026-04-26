@@ -1,7 +1,7 @@
 {
-  "name": "Cheap IPTV",
-  "short_name": "Cheap IPTV",
-  "description": "Cheap IPTV UK subscription — 37,000 channels, 4K UHD, built-in VPN, five screens, from £4.99.",
+  "name": "British IPTV 4K",
+  "short_name": "British IPTV",
+  "description": "British IPTV subscription — 37,000 channels, 4K UHD, built-in VPN, five screens, from £12.99.",
   "scope": "/",
   "start_url": "/",
   "display": "standalone",

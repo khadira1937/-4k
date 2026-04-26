@@ -16,20 +16,20 @@ export default function ChannelsSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
           className="text-center mb-16"
         >
           <span className="inline-block rounded-full bg-violet-50 border border-violet-200 px-4 py-1.5 text-sm font-medium text-violet-700 mb-4">
-            37,000 Feeds Organised For British Viewers
+            37,000 IPTV UK Feeds · One Subscription
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Inside The IPTV UK Channel Guide —{" "}
-            <span className="gradient-text">37,000 Feeds Organised For British Viewers</span>
+            Inside The British IPTV Channel Vault —{" "}
+            <span className="gradient-text">37,000 IPTV UK Feeds</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted">
-            The channel library is organised by category and region, with a fully searchable EPG and 7-day catch-up on selected feeds. A single{" "}
+            Every genre a UK household tunes into, sorted by the categories our subscribers browse most. A single{" "}
             <SectionLink href="/#pricing" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
-              IPTV UK plan
+              British IPTV plan
             </SectionLink>{" "}
             opens every category below at once.
           </p>
@@ -43,7 +43,7 @@ export default function ChannelsSection() {
                 key={cat.name}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
                 transition={{ delay: i * 0.05 }}
                 className="group relative overflow-hidden rounded-2xl border border-violet-100/60 bg-white p-6 transition-all duration-500 hover:border-violet-200 hover:shadow-lg hover:shadow-violet-100/40 premium-card"
               >

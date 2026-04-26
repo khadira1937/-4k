@@ -11,14 +11,14 @@ export default function Footer() {
     <footer className="relative border-t border-violet-100/50 bg-gradient-to-b from-[#fafbff] to-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Main footer */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 py-16 lg:max-w-5xl lg:mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 py-10 sm:py-14 lg:py-16 lg:max-w-5xl lg:mx-auto">
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2.5 mb-4">
               <div className="relative h-12 w-12 shrink-0">
                 <Image
                   src="/cheap-iptv.webp"
-                  alt="IPTV UK 4K logo"
+                  alt="British IPTV 4K logo"
                   fill
                   sizes="48px"
                   loading="lazy"
@@ -26,11 +26,11 @@ export default function Footer() {
                 />
               </div>
               <span className="text-lg font-bold text-foreground">
-                IPTV<span className="gradient-text"> UK </span>4K
+                British<span className="gradient-text"> IPTV </span>4K
               </span>
             </Link>
             <p className="text-sm text-muted leading-relaxed mb-6">
-              The IPTV UK service 50,000 British homes trust. 37,000 live channels, 198,000 films and series, native 4K UHD and built-in VPN — from £12.99/month.
+              The British IPTV service trusted by 50,000 UK households. 37,000 live channels, 198,000 films and series, native 4K UHD and built-in VPN — from £12.99/month.
             </p>
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-sm text-muted">
@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="border-t border-violet-100/50 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-xs text-muted text-center sm:text-left">
-              © {new Date().getFullYear()} iptv-uk-4k.com — IPTV UK | Best IPTV UK | UK IPTV Subscription | Buy IPTV UK
+              © {new Date().getFullYear()} british-iptv-4k.com — British IPTV | Premium IPTV UK | Best IPTV Provider | Buy IPTV UK
             </p>
             <p className="text-xs text-gray-500 text-center sm:text-right max-w-md">
               {SITE_NAME} is not affiliated with any television networks or content providers.

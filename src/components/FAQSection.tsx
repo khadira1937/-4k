@@ -19,14 +19,14 @@ export default function FAQSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
           className="text-center mb-16"
         >
           <span className="inline-block rounded-full bg-violet-50 border border-violet-200 px-4 py-1.5 text-sm font-medium text-violet-700 mb-4">
             Frequently Asked Questions
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            IPTV UK &mdash; Frequently{" "}
+            British IPTV &mdash; Frequently{" "}
             <span className="gradient-text">Asked Questions</span>
           </h2>
           <p className="text-lg text-muted">
@@ -34,9 +34,9 @@ export default function FAQSection() {
             <Link href="/blog" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
               review
             </Link>{" "}
-            before choosing an{" "}
+            before choosing a{" "}
             <SectionLink href="/#pricing" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
-              IPTV UK subscription
+              British IPTV subscription
             </SectionLink>.
           </p>
         </motion.div>
@@ -50,7 +50,7 @@ export default function FAQSection() {
                 key={i}
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
                 transition={{ delay: i * 0.03 }}
               >
                 <button

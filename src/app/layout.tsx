@@ -23,31 +23,31 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "IPTV UK 2026 | #1 UK IPTV Subscription 4K From £12.99",
-    template: "%s | IPTV UK 4K",
+    default: "British IPTV 2026 | Premium IPTV UK Service From £12.99/mo",
+    template: "%s | British IPTV 4K",
   },
   description:
-    "IPTV UK built for British viewers. 37,000 channels, native 4K, built-in VPN, five screens, 60-second activation, 30-day guarantee. The definitive UK IPTV hub.",
+    "British IPTV built for UK homes. 37,000 channels, 4K UHD, built-in VPN, 24/7 support. Fast activation, strong servers. Buy IPTV from £12.99. 30-day refund.",
   keywords: [
+    "british iptv",
     "iptv uk",
-    "iptv uk subscription",
-    "iptv uk channels",
-    "iptv uk 4k",
     "iptv subscription",
     "best iptv uk",
     "iptv providers",
     "iptv service",
     "iptv reviews",
     "buy iptv",
-    "british iptv",
     "strong iptv",
     "fast iptv",
     "premium iptv",
     "cheap iptv subscription",
+    "iptv uk 4k",
+    "premium iptv uk",
+    "uk iptv subscription",
   ],
-  authors: [{ name: "IPTV UK 4K" }],
-  creator: "IPTV UK 4K",
-  applicationName: "IPTV UK 4K",
+  authors: [{ name: "British IPTV 4K" }],
+  creator: "British IPTV 4K",
+  applicationName: "British IPTV 4K",
   alternates: {
     canonical: "/",
     languages: {
@@ -71,17 +71,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    siteName: "IPTV UK 4K",
+    siteName: "British IPTV 4K",
     url: SITE_URL,
-    title: "IPTV UK 2026 — The Definitive British IPTV Hub In 4K",
+    title: "British IPTV 2026 — Best IPTV UK | Buy Premium IPTV Direct",
     description:
-      "The IPTV UK service 50,000 homes already trust. 37,000 live channels, 198,000 films, premium 4K streaming, instant activation. Buy IPTV and watch in minutes.",
+      "The British IPTV service trusted by 50,000 UK households. 37,000 channels, 198,000 films, 4K streaming, VPN included and a cheap IPTV subscription from £12.99.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IPTV UK 2026 — The Definitive British IPTV Hub In 4K",
+    title: "British IPTV 2026 — Best IPTV UK | Buy Premium IPTV Direct",
     description:
-      "IPTV UK built for British viewers. 37,000 channels, native 4K, built-in VPN, five screens, 60-second activation, 30-day guarantee. From £12.99.",
+      "British IPTV for UK homes. 37,000 channels, 4K UHD, built-in VPN, 24/7 support. Fast activation, strong servers. Buy IPTV from £12.99. 30-day refund.",
   },
   robots: {
     index: true,

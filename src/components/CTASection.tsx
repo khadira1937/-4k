@@ -42,13 +42,13 @@ export default function CTASection() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
         >
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
             className="inline-flex items-center gap-2 rounded-full border border-purple-400/20 bg-white/[0.07] backdrop-blur-md px-5 py-2 text-sm text-purple-300 mb-8"
           >
             <Sparkles className="h-4 w-4 text-cyan-400" />
@@ -56,17 +56,17 @@ export default function CTASection() {
           </motion.div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Join 50,000 British Homes &mdash; Get IPTV UK And{" "}
-            <span className="gradient-text-hero">Stream Tonight</span>
+            Stream British IPTV Tonight &mdash; Buy IPTV And{" "}
+            <span className="gradient-text-hero">Watch In Minutes</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-gray-300/90 mb-10 leading-relaxed">
-            The search for reliable television streaming in Britain ends here. The 24-month{" "}
+            Over 50,000 British homes already rely on this service. The 24-month{" "}
             <SectionLink href="/#pricing" className="text-cyan-300 hover:text-cyan-200 underline-offset-2 hover:underline">
-              IPTV UK plan
+              British IPTV plan
             </SectionLink>{" "}
-            locks the lowest rate while delivering 37,000 channels, 198,000 films, native 4K, built-in VPN and five simultaneous screens. Your first channel plays sixty seconds after payment, with a{" "}
+            locks the lowest monthly rate while covering the full 37,000-channel library, 198,000 films and built-in VPN. Your first channel plays moments after payment, backed by a{" "}
             <Link href="/refund" className="text-cyan-300 hover:text-cyan-200 underline-offset-2 hover:underline">
-              30-day refund guarantee
+              30-day guarantee
             </Link>{" "}
             and{" "}
             <Link href="/contact" className="text-cyan-300 hover:text-cyan-200 underline-offset-2 hover:underline">
@@ -80,7 +80,7 @@ export default function CTASection() {
               className="group relative flex items-center gap-2.5 rounded-2xl bg-gradient-to-r from-violet-600 via-purple-600 to-cyan-500 px-8 py-4 text-base font-semibold text-white transition-all hover:shadow-2xl hover:shadow-purple-500/30 active:scale-[0.98] w-full sm:w-auto justify-center"
             >
               <Play className="h-5 w-5 fill-current" />
-              Get IPTV UK Now — From £12.99
+              Get Your British IPTV Plan — From £12.99
               <div className="absolute inset-0 rounded-2xl bg-white/10 opacity-0 transition-opacity group-hover:opacity-100" />
             </SectionLink>
             <SectionLink
@@ -93,7 +93,7 @@ export default function CTASection() {
           </div>
 
           <p className="mt-8 text-sm text-gray-400">
-            Questions? WhatsApp +44 20 0000 0000 or email support@iptv-uk-4k.com — average reply under four minutes.
+            Questions? WhatsApp +44 20 0000 0000 or email support@british-iptv-4k.com — average reply under four minutes.
           </p>
         </motion.div>
       </div>

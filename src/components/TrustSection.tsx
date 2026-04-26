@@ -9,25 +9,25 @@ const trustItems = [
     icon: Shield,
     title: "30-Day Money-Back Guarantee On Every IPTV Subscription",
     description:
-      "Not convinced? Contact support within 30 days and every penny returns same-day. No forms, no retention scripts, no small print — a full refund that lets you test IPTV UK completely risk-free.",
+      "Not satisfied? Contact support within 30 days and every penny returns the same day. No forms, no retention calls, no fine print.",
   },
   {
     icon: Wifi,
-    title: "99.9% Uptime On Strong IPTV Servers",
+    title: "99.9% Uptime On Strong IPTV Infrastructure",
     description:
-      "A live status page tracks performance minute by minute. If uptime falls below 99.9 percent, service credits apply automatically. Strong UK infrastructure is the foundation of every streaming claim.",
+      "Our public status page tracks performance minute by minute. If uptime dips below 99.9% in any calendar month, service credits apply automatically.",
   },
   {
     icon: Lock,
     title: "Built-In VPN — Premium IPTV Privacy At No Extra Cost",
     description:
-      "The VPN encrypts every stream with zero latency penalty. No bandwidth cap, no logs, no separate subscription — premium-grade privacy included in every plan from day one.",
+      "The VPN encrypts every stream from the moment you press play. No bandwidth cap, no logs and no separate subscription — privacy ships as standard.",
   },
   {
     icon: ServerCog,
-    title: "24/7 UK Support — A British IPTV Service That Never Closes",
+    title: "UK-Based Support — The IPTV Service That Never Sleeps",
     description:
-      "A named British team answers live chat, WhatsApp and email around the clock. Average first response: under four minutes — support quality that matches the streaming quality.",
+      "A named British team answers live chat, WhatsApp and email 24/7. Average response times are published weekly so you can check before you commit.",
   },
 ];
 
@@ -40,18 +40,18 @@ export default function TrustSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
           className="text-center mb-16"
         >
           <span className="inline-block rounded-full bg-emerald-50 border border-emerald-200 px-4 py-1.5 text-sm font-medium text-emerald-700 mb-4">
-            Four Commitments You Can Verify
+            Four Guarantees You Can Verify
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            The IPTV UK Guarantee &mdash; Four Commitments{" "}
+            The British IPTV Promise &mdash; Four Guarantees{" "}
             <span className="gradient-text">You Can Verify</span>
           </h2>
           <p className="mx-auto max-w-xl text-lg text-muted">
-            Every claim on this page is published, measured and backed by a full{" "}
+            Every claim below is published, measured and backed by a full{" "}
             <Link href="/refund" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
               same-day refund
             </Link>.
@@ -64,7 +64,7 @@ export default function TrustSection() {
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
               transition={{ delay: i * 0.1 }}
               className="group text-center"
             >

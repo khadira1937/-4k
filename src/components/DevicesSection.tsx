@@ -16,22 +16,21 @@ export default function DevicesSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
           className="text-center mb-16"
         >
           <span className="inline-block rounded-full bg-cyan-50 border border-cyan-200 px-4 py-1.5 text-sm font-medium text-cyan-700 mb-4">
-            One Login, Every Screen
+            One Subscription · Five Concurrent Streams
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            IPTV UK On Every Device &mdash;{" "}
-            <span className="gradient-text">One Subscription, Every Screen In Your Home</span>
+            British IPTV On Every Screen &mdash;{" "}
+            <span className="gradient-text">The IPTV Service For All Devices</span>
           </h2>
           <p className="mx-auto max-w-xl text-lg text-muted">
-            No proprietary box required. One{" "}
+            One subscription, five concurrent streams, zero extra hardware. Works on every mainstream platform UK households already own. Compatible with{" "}
             <SectionLink href="/#pricing" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
-              IPTV UK subscription
-            </SectionLink>{" "}
-            works across every major platform, with five concurrent streams on every plan.
+              every IPTV UK plan
+            </SectionLink>.
           </p>
         </motion.div>
 
@@ -43,7 +42,7 @@ export default function DevicesSection() {
                 key={device.name}
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
                 transition={{ delay: i * 0.05 }}
                 whileHover={{ y: -8, scale: 1.05 }}
                 className="group flex flex-col items-center gap-4 rounded-2xl border border-violet-100/50 bg-white p-6 transition-all duration-300 hover:border-violet-200 hover:shadow-lg hover:shadow-violet-100/40 cursor-default"

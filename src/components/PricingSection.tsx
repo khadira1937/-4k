@@ -101,19 +101,19 @@ export default function PricingSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
           className="text-center mb-14"
         >
           <span className="inline-flex items-center gap-2 rounded-full bg-violet-50 border border-violet-200 px-5 py-2 text-sm font-semibold text-violet-700 mb-5">
             <Gem className="h-4 w-4" />
-            Four Subscription Tiers, One Complete Package
+            One Service · Four Terms · Identical Channels
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-5">
-            IPTV UK Plans &mdash;{" "}
-            <span className="gradient-text">Four Subscription Tiers, One Complete Package</span>
+            British IPTV Plans &mdash;{" "}
+            <span className="gradient-text">Cheap IPTV Subscriptions To Premium IPTV</span>
           </h2>
           <p className="mx-auto max-w-2xl text-base text-muted leading-relaxed">
-            Every plan runs on the same UK infrastructure with the same 37,000-channel library, native 4K UHD, built-in VPN and five simultaneous screens. The only variable is commitment length and the discount that comes with it.
+            One service, four terms. Channels, 4K and VPN stay identical on every tier. The only variable is commitment length — and savings.
           </p>
         </motion.div>
 
@@ -130,7 +130,7 @@ export default function PricingSection() {
                 key={plan.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
                 transition={{ delay: i * 0.08 }}
                 onMouseEnter={() => setHoveredPlan(plan.id)}
                 onMouseLeave={() => setHoveredPlan(null)}
@@ -252,7 +252,7 @@ export default function PricingSection() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
           className="mt-14 flex flex-wrap items-center justify-center gap-6 lg:gap-10"
         >
           {[

@@ -22,22 +22,21 @@ export default function FeaturesSection() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
           className="text-center lg:mb-12 mb-10"
         >
           <span className="inline-block rounded-full bg-violet-50 border border-violet-200 px-4 py-1.5 text-sm font-medium text-violet-700 mb-4">
             Built For The UK · Everything Included
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Eight Pillars Of The IPTV UK Experience —{" "}
-            <span className="gradient-text">Everything Included From Day One</span>
+            What Makes This The Definitive{" "}
+            <span className="gradient-text">British IPTV Service</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted">
-            No bolt-ons, no hidden tiers, no surprise charges. Every feature below ships with every{" "}
+            Eight hallmarks define this IPTV provider and separate it from every other option in the UK market. Each one is measured, transparent and covered by our{" "}
             <SectionLink href="/#pricing" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
-              IPTV UK subscription
-            </SectionLink>{" "}
-            at no additional cost.
+              30-day refund pledge
+            </SectionLink>.
           </p>
         </motion.div>
 
@@ -50,7 +49,7 @@ export default function FeaturesSection() {
                 key={feature.title}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0, margin: "0px 0px 200px 0px" }}
                 transition={{ delay: i * 0.05 }}
                 className="group relative rounded-2xl border border-violet-100/60 bg-white p-6 transition-all duration-500 hover:border-violet-200 hover:shadow-lg hover:shadow-violet-100/40 premium-card"
               >
