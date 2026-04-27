@@ -56,15 +56,15 @@ export default function CTASection() {
           </motion.div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Buy IPTV Today &mdash; Start Your IPTV Subscription{" "}
-            <span className="gradient-text-hero">In 60 Seconds</span>
+            Stop Buffering &mdash; Get Fast IPTV And{" "}
+            <span className="gradient-text-hero">Stream In Under Two Minutes</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-gray-300/90 mb-10 leading-relaxed">
-            Over 50,000 UK viewers already switched. Lock in a 4K{" "}
+            Over 50,000 UK homes already switched to the fastest IPTV in Britain. The 24-month{" "}
             <SectionLink href="/#pricing" className="text-cyan-300 hover:text-cyan-200 underline-offset-2 hover:underline">
-              IPTV subscription
+              fast IPTV plan
             </SectionLink>{" "}
-            today and save up to 55% on the 24-month plan. Your plan ships with 37,000 channels, 198,000 films and UK support, backed by a{" "}
+            locks the lowest rate while delivering the full 37,000-channel library, 198,000 films and built-in VPN at full speed. First channel plays sixty seconds after payment, backed by a{" "}
             <Link href="/refund" className="text-cyan-300 hover:text-cyan-200 underline-offset-2 hover:underline">
               30-day guarantee
             </Link>{" "}
@@ -80,7 +80,7 @@ export default function CTASection() {
               className="group relative flex items-center gap-2.5 rounded-2xl bg-gradient-to-r from-violet-600 via-purple-600 to-cyan-500 px-8 py-4 text-base font-semibold text-white transition-all hover:shadow-2xl hover:shadow-purple-500/30 active:scale-[0.98] w-full sm:w-auto justify-center"
             >
               <Play className="h-5 w-5 fill-current" />
-              Buy IPTV Now — From 12.99
+              Get Fast IPTV Now — From £25.99
               <div className="absolute inset-0 rounded-2xl bg-white/10 opacity-0 transition-opacity group-hover:opacity-100" />
             </SectionLink>
             <SectionLink
@@ -88,12 +88,12 @@ export default function CTASection() {
               className="group flex items-center gap-2.5 rounded-2xl border border-white/15 bg-white/[0.06] backdrop-blur-sm px-8 py-4 text-base font-semibold text-white transition-all hover:border-purple-400/30 hover:bg-white/10 w-full sm:w-auto justify-center"
             >
               <MessageCircle className="h-5 w-5 text-cyan-400" />
-              Chat With UK Support
+              Chat With Our UK Team
             </SectionLink>
           </div>
 
           <p className="mt-8 text-sm text-gray-400">
-            Need help? WhatsApp +44 20 0000 0000 or email support@iptv-subscription-uk-4k.com — we reply in minutes.
+            Questions? WhatsApp +44 20 0000 0000 or email support@fast-iptv.tv — average reply under four minutes.
           </p>
         </motion.div>
       </div>

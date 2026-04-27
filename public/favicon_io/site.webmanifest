@@ -1,7 +1,7 @@
 {
-  "name": "IPTV Subscription UK 4K",
-  "short_name": "IPTV Subscription UK",
-  "description": "Premium IPTV subscription for UK homes — 37,000 channels, 198,000 films in 4K UHD, built-in VPN, instant activation. From 12.99.",
+  "name": "Fast IPTV",
+  "short_name": "Fast IPTV",
+  "description": "Fast IPTV built for speed — 37,000 channels, 4K UHD, 60-second activation, strong UK servers and a built-in VPN. From £25.99.",
   "scope": "/",
   "start_url": "/",
   "display": "standalone",

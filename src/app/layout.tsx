@@ -23,12 +23,15 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "IPTV Subscription UK | 37,000 Channels in 4K UHD",
-    template: "%s | IPTV Subscription UK 4K",
+    default: "Fast IPTV 2026 | Fastest UK IPTV Service From £25.99",
+    template: "%s | Fast IPTV",
   },
   description:
-    "Get the best IPTV subscription in the UK. 37,000 channels, 198,000 films in 4K, built-in VPN, 99.9% uptime. 30-day money-back.",
+    "Fast IPTV built for speed. 37,000 channels, 4K UHD, 60-second activation, strong UK servers, built-in VPN. The fastest IPTV subscription in Britain. £25.99.",
   keywords: [
+    "fast iptv",
+    "fast iptv uk",
+    "fastest iptv",
     "iptv subscription",
     "iptv uk",
     "best iptv uk",
@@ -38,16 +41,12 @@ export const metadata: Metadata = {
     "buy iptv",
     "british iptv",
     "strong iptv",
-    "fast iptv",
     "premium iptv",
     "cheap iptv subscription",
-    "iptv subscription uk",
-    "iptv uk 4k",
-    "uk iptv subscription",
   ],
-  authors: [{ name: "IPTV Subscription UK 4K" }],
-  creator: "IPTV Subscription UK 4K",
-  applicationName: "IPTV Subscription UK 4K",
+  authors: [{ name: "Fast IPTV" }],
+  creator: "Fast IPTV",
+  applicationName: "Fast IPTV",
   alternates: {
     canonical: "/",
     languages: {
@@ -71,17 +70,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    siteName: "IPTV Subscription UK 4K",
+    siteName: "Fast IPTV",
     url: SITE_URL,
-    title: "IPTV Subscription UK — 4K British IPTV from 12.99",
+    title: "Fast IPTV UK 2026 — Speed-First Streaming For British Homes",
     description:
-      "Premium IPTV subscription for UK homes. 37,000 live channels, 198,000 VOD, 4K UHD, instant activation and 24/7 UK support.",
+      "The fast IPTV service 50,000 UK homes trust. 60-second activation, zero-buffer 4K, 37,000 channels, premium quality. Buy IPTV that never keeps you waiting.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IPTV Subscription UK — 4K British IPTV from 12.99",
+    title: "Fast IPTV UK 2026 — Speed-First Streaming For British Homes",
     description:
-      "Premium IPTV subscription for UK homes. 37,000 live channels, 198,000 VOD, 4K UHD, instant activation and 24/7 UK support.",
+      "The fast IPTV service 50,000 UK homes trust. 60-second activation, zero-buffer 4K, 37,000 channels, premium quality. Buy IPTV that never keeps you waiting.",
   },
   robots: {
     index: true,

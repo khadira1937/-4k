@@ -26,8 +26,8 @@ export default function FAQSection() {
             Frequently Asked Questions
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            IPTV Subscription{" "}
-            <span className="gradient-text">FAQ</span>
+            Fast IPTV &mdash; Frequently{" "}
+            <span className="gradient-text">Asked Questions</span>
           </h2>
           <p className="text-lg text-muted">
             Everything to{" "}
@@ -36,7 +36,7 @@ export default function FAQSection() {
             </Link>{" "}
             before starting your{" "}
             <SectionLink href="/#pricing" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
-              IPTV subscription
+              fast IPTV subscription
             </SectionLink>.
           </p>
         </motion.div>

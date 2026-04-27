@@ -106,14 +106,14 @@ export default function PricingSection() {
         >
           <span className="inline-flex items-center gap-2 rounded-full bg-violet-50 border border-violet-200 px-5 py-2 text-sm font-semibold text-violet-700 mb-5">
             <Gem className="h-4 w-4" />
-            Premium IPTV Pricing · One Plan, Four Terms
+            Same Speed · Four Price Points
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-5">
-            Premium IPTV Pricing That{" "}
-            <span className="gradient-text">Fits Your Budget</span>
+            Fast IPTV Plans &mdash;{" "}
+            <span className="gradient-text">Same Speed, Four Price Points</span>
           </h2>
           <p className="mx-auto max-w-2xl text-base text-muted leading-relaxed">
-            Every plan gives you the full premium IPTV package. Pick the term that fits — the longer you go, the lower the monthly rate.
+            One service, four terms. Every plan runs on the same infrastructure at the same speed. The only variable is commitment length and savings.
           </p>
         </motion.div>
 

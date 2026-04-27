@@ -17,8 +17,8 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2.5 mb-4">
               <div className="relative h-12 w-12 shrink-0">
                 <Image
-                  src="/cheap-iptv.webp"
-                  alt="IPTV Subscription UK 4K logo"
+                  src="/fast-iptv.webp"
+                  alt="Fast IPTV logo"
                   fill
                   sizes="48px"
                   loading="lazy"
@@ -26,11 +26,11 @@ export default function Footer() {
                 />
               </div>
               <span className="text-lg font-bold text-foreground">
-                IPTV<span className="gradient-text"> Subscription </span>UK
+                Fast<span className="gradient-text"> IPTV </span>
               </span>
             </Link>
             <p className="text-sm text-muted leading-relaxed mb-6">
-              Premium IPTV subscription for UK homes. 37,000 live channels, 198,000 films and series in 4K UHD with built-in VPN, instant activation and 24/7 UK support — from £12.99.
+              The fast IPTV service 50,000 UK homes trust. 60-second activation, zero-buffer 4K streaming, 37,000 channels and a built-in VPN — from £25.99.
             </p>
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-sm text-muted">
@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="border-t border-violet-100/50 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-xs text-muted text-center sm:text-left">
-              © {new Date().getFullYear()} iptv-subscription-uk-4k.com — Premium IPTV Subscription UK | Best IPTV UK 4K Service | British IPTV Provider
+              © {new Date().getFullYear()} fast-iptv.tv — Fast IPTV | Fastest IPTV UK | Premium IPTV Service | Buy IPTV UK
             </p>
             <p className="text-xs text-gray-500 text-center sm:text-right max-w-md">
               {SITE_NAME} is not affiliated with any television networks or content providers.

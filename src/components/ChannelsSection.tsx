@@ -20,16 +20,16 @@ export default function ChannelsSection() {
           className="text-center mb-16"
         >
           <span className="inline-block rounded-full bg-violet-50 border border-violet-200 px-4 py-1.5 text-sm font-medium text-violet-700 mb-4">
-            Six Categories · One IPTV UK Service
+            37,000 Feeds · Instant Playback
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            37,000+ Channels On{" "}
-            <span className="gradient-text">One IPTV UK Service</span>
+            Inside The Fast IPTV Channel Library —{" "}
+            <span className="gradient-text">37,000 IPTV UK Feeds</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted">
-            Browse six tidy categories to find what to watch next. Every pack is included in every{" "}
+            Speed without content is pointless. Here is what loads the moment you press play — every category included in every{" "}
             <SectionLink href="/#pricing" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
-              IPTV subscription plan
+              fast IPTV plan
             </SectionLink>.
           </p>
         </motion.div>
