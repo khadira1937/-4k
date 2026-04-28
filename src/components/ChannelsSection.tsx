@@ -20,16 +20,16 @@ export default function ChannelsSection() {
           className="text-center mb-16"
         >
           <span className="inline-block rounded-full bg-violet-50 border border-violet-200 px-4 py-1.5 text-sm font-medium text-violet-700 mb-4">
-            37,000 Feeds · Instant Playback
+            One Purchase · Every Category Unlocked
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Inside The Fast IPTV Channel Library —{" "}
-            <span className="gradient-text">37,000 IPTV UK Feeds</span>
+            What You Get When You Buy IPTV —{" "}
+            <span className="gradient-text">37,000 Channels Organised By Category</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted">
-            Speed without content is pointless. Here is what loads the moment you press play — every category included in every{" "}
+            One purchase opens the entire library. Here is a breakdown of what loads the moment your credentials arrive — every category bundled into every{" "}
             <SectionLink href="/#pricing" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
-              fast IPTV plan
+              IPTV subscription plan
             </SectionLink>.
           </p>
         </motion.div>

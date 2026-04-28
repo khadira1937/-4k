@@ -1,7 +1,7 @@
 {
-  "name": "Fast IPTV",
-  "short_name": "Fast IPTV",
-  "description": "Fast IPTV built for speed — 37,000 channels, 4K UHD, 60-second activation, strong UK servers and a built-in VPN. From £25.99.",
+  "name": "Buy IPTV Subscription",
+  "short_name": "Buy IPTV",
+  "description": "Buy IPTV and stream 37,000 channels in 4K within 60 seconds. Trusted UK subscription, built-in VPN, five screens, 30-day guarantee. From £12.99.",
   "scope": "/",
   "start_url": "/",
   "display": "standalone",

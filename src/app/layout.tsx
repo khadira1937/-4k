@@ -23,30 +23,30 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Fast IPTV 2026 | Fastest UK IPTV Service From £25.99",
-    template: "%s | Fast IPTV",
+    default: "Buy IPTV Subscription 2026 | Trusted UK IPTV From £12.99",
+    template: "%s | Buy IPTV Subscription",
   },
   description:
-    "Fast IPTV built for speed. 37,000 channels, 4K UHD, 60-second activation, strong UK servers, built-in VPN. The fastest IPTV subscription in Britain. £25.99.",
+    "Buy IPTV and stream 37,000 channels in 4K within 60 seconds. Trusted UK subscription, built-in VPN, five screens, 30-day guarantee. From £12.99. Order now.",
   keywords: [
-    "fast iptv",
-    "fast iptv uk",
-    "fastest iptv",
+    "buy iptv",
+    "buy iptv subscription",
+    "buy iptv uk",
     "iptv subscription",
     "iptv uk",
     "best iptv uk",
     "iptv providers",
     "iptv service",
     "iptv reviews",
-    "buy iptv",
     "british iptv",
     "strong iptv",
+    "fast iptv",
     "premium iptv",
     "cheap iptv subscription",
   ],
-  authors: [{ name: "Fast IPTV" }],
-  creator: "Fast IPTV",
-  applicationName: "Fast IPTV",
+  authors: [{ name: "Buy IPTV Subscription" }],
+  creator: "Buy IPTV Subscription",
+  applicationName: "Buy IPTV Subscription",
   alternates: {
     canonical: "/",
     languages: {
@@ -70,17 +70,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    siteName: "Fast IPTV",
+    siteName: "Buy IPTV Subscription",
     url: SITE_URL,
-    title: "Fast IPTV UK 2026 — Speed-First Streaming For British Homes",
+    title: "Buy IPTV Subscription UK 2026 — Instant Checkout, Instant Streaming",
     description:
-      "The fast IPTV service 50,000 UK homes trust. 60-second activation, zero-buffer 4K, 37,000 channels, premium quality. Buy IPTV that never keeps you waiting.",
+      "Ready to buy IPTV? 50,000 UK subscribers already did. 37,000 channels, premium 4K, VPN included. Pay now, stream in 60 seconds. The shortcut to better television.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fast IPTV UK 2026 — Speed-First Streaming For British Homes",
+    title: "Buy IPTV Subscription UK 2026 — Instant Checkout, Instant Streaming",
     description:
-      "The fast IPTV service 50,000 UK homes trust. 60-second activation, zero-buffer 4K, 37,000 channels, premium quality. Buy IPTV that never keeps you waiting.",
+      "Ready to buy IPTV? 50,000 UK subscribers already did. 37,000 channels, premium 4K, VPN included. Pay now, stream in 60 seconds. The shortcut to better television.",
   },
   robots: {
     index: true,

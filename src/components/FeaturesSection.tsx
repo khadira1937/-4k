@@ -26,18 +26,17 @@ export default function FeaturesSection() {
           className="text-center lg:mb-12 mb-10"
         >
           <span className="inline-block rounded-full bg-violet-50 border border-violet-200 px-4 py-1.5 text-sm font-medium text-violet-700 mb-4">
-            Speed-First · Measured · Published
+            Everything Included At Checkout
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Eight Speed Benchmarks That Make This{" "}
-            <span className="gradient-text">The Fastest IPTV Service</span>
+            Eight Reasons To Buy IPTV From This Subscription —{" "}
+            <span className="gradient-text">Everything Included At Checkout</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted">
-            Every feature below is built around one principle: speed. From activation to channel switching to support response, this{" "}
+            Every feature below is bundled into one transaction. No add-ons to discover later, no premium tiers hidden behind a second paywall — this is what you receive with every{" "}
             <SectionLink href="/#pricing" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
-              IPTV provider
-            </SectionLink>{" "}
-            measures and publishes performance data that most competitors hide.
+              IPTV subscription plan
+            </SectionLink>.
           </p>
         </motion.div>
 

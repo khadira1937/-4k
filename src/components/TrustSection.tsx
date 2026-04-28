@@ -7,27 +7,27 @@ import Link from "next/link";
 const trustItems = [
   {
     icon: Shield,
-    title: "30-Day Money-Back Guarantee On Every IPTV Subscription",
+    title: "30-Day Money-Back Guarantee On Every IPTV Subscription You Buy",
     description:
-      "Not fast enough? Contact support within 30 days and every penny returns same-day. No forms, no retention calls. The safety net that lets you test speed risk-free.",
+      "Not satisfied with the service? Contact support within 30 days and every penny returns same-day. No forms, no retention scripts, no exceptions. A safety net that eliminates all financial risk.",
   },
   {
     icon: Wifi,
     title: "99.9% Uptime On Strong IPTV Servers",
     description:
-      "A live status page tracks performance minute by minute. If uptime dips below 99.9%, service credits apply automatically. Strong infrastructure is the foundation of every speed claim.",
+      "A live status page tracks server health minute by minute. If uptime dips below 99.9 percent, service credits apply automatically. Your purchase is protected by infrastructure that does not cut corners.",
   },
   {
     icon: Lock,
-    title: "Built-In VPN — Premium IPTV Privacy At Full Speed",
+    title: "Built-In VPN — Premium IPTV Privacy Included In Your Purchase",
     description:
-      "The VPN encrypts every stream with no measurable latency penalty. No bandwidth cap, no logs, no separate subscription. Speed and privacy in one package.",
+      "The VPN encrypts every stream with no latency penalty. No bandwidth cap, no logs, no separate subscription. Privacy is included at no additional cost.",
   },
   {
     icon: ServerCog,
-    title: "UK-Based Support — The IPTV Service That Resolves Fast",
+    title: "24/7 UK Support — A British IPTV Service That Backs Every Buyer",
     description:
-      "A named British team answers live chat, WhatsApp and email 24/7. Average first response under four minutes. Speed of resolution is as important as speed of streaming.",
+      "A named British team answers live chat, WhatsApp and email around the clock. Average first response: under four minutes. Post-checkout support that matches the pre-checkout promise.",
   },
 ];
 
@@ -44,14 +44,14 @@ export default function TrustSection() {
           className="text-center mb-16"
         >
           <span className="inline-block rounded-full bg-emerald-50 border border-emerald-200 px-4 py-1.5 text-sm font-medium text-emerald-700 mb-4">
-            Four Speed Promises You Can Verify
+            Four Promises That Protect Your Purchase
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            The Fast IPTV Guarantee &mdash; Four Speed Promises{" "}
-            <span className="gradient-text">You Can Verify</span>
+            The Buy IPTV Guarantee &mdash; Four Promises{" "}
+            <span className="gradient-text">That Protect Your Purchase</span>
           </h2>
           <p className="mx-auto max-w-xl text-lg text-muted">
-            Claims without evidence are noise. Every guarantee below is published, measured and backed by a full{" "}
+            Spending money online requires trust. Every commitment below is published, measured and backed by a full{" "}
             <Link href="/refund" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
               same-day refund
             </Link>.

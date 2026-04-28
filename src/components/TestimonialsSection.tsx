@@ -21,15 +21,15 @@ export default function TestimonialsSection() {
             Trustpilot Average 4.9/5
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Fast IPTV Reviews &mdash; What 50,000 UK Subscribers{" "}
-            <span className="gradient-text">Say About Speed</span>
+            Buy IPTV Reviews &mdash; What 50,000 UK Subscribers{" "}
+            <span className="gradient-text">Say After Signing Up</span>
           </h2>
           <p className="mx-auto max-w-xl text-lg text-muted">
-            Real feedback from verified customers — every{" "}
+            Real feedback from verified customers who made the switch — Trustpilot{" "}
             <SectionLink href="/#testimonials" className="text-violet-600 hover:text-violet-700 underline-offset-2 hover:underline">
-              IPTV review
+              IPTV reviews
             </SectionLink>{" "}
-            on Trustpilot averages 4.9 out of 5.
+            average 4.9 out of 5.
           </p>
         </motion.div>
 

@@ -49,14 +49,14 @@ export default function HomePage() {
                 "@type": "Organization",
                 "@id": organizationId,
                 name: SITE_NAME,
-                alternateName: "Fast IPTV UK",
+                alternateName: "Buy IPTV Subscription UK",
                 url: SITE_URL,
                 logo: {
                   "@type": "ImageObject",
                   url: logoUrl,
                 },
                 description:
-                  "Fast IPTV built for speed — 37,000 channels, 4K UHD, 60-second activation, strong UK servers and a built-in VPN. The fastest IPTV subscription in Britain. From £25.99.",
+                  "Buy IPTV and stream 37,000 channels in 4K within 60 seconds. Trusted UK subscription with built-in VPN, five screens, 30-day guarantee and 24/7 UK support — from £12.99.",
                 areaServed: { "@type": "Country", name: "United Kingdom" },
                 contactPoint: {
                   "@type": "ContactPoint",
@@ -80,7 +80,7 @@ export default function HomePage() {
                 "@type": "WebPage",
                 "@id": webpageId,
                 url: SITE_URL,
-                name: "Fast IPTV 2026 | Fastest UK IPTV Service From £25.99",
+                name: "Buy IPTV Subscription 2026 | Trusted UK IPTV From £12.99",
                 inLanguage: "en-GB",
                 isPartOf: {
                   "@id": websiteId,
@@ -92,7 +92,7 @@ export default function HomePage() {
                   "@id": breadcrumbId,
                 },
                 description:
-                  "Fast IPTV built for speed. 37,000 channels, 4K UHD, 60-second activation, strong UK servers, built-in VPN and a 30-day money-back guarantee.",
+                  "Buy IPTV and stream 37,000 channels in 4K within 60 seconds. Trusted UK subscription, built-in VPN, five screens and a 30-day money-back guarantee.",
               },
               {
                 "@type": "BreadcrumbList",
@@ -107,7 +107,7 @@ export default function HomePage() {
                   {
                     "@type": "ListItem",
                     position: 2,
-                    name: "Fast IPTV",
+                    name: "Buy IPTV",
                     item: `${SITE_URL}/#features`,
                   },
                 ],
@@ -123,15 +123,15 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "Product",
             "@id": productId,
-            name: "Fast IPTV Subscription",
+            name: "Buy IPTV Subscription",
             url: SITE_URL,
             image: [logoUrl],
             description:
-              "Fast IPTV subscription with 60-second activation, 37,000+ live channels, 198,000+ on-demand films and series in 4K UHD, five simultaneous screens and a built-in VPN — from £25.99.",
+              "Buy IPTV subscription with 60-second activation, 37,000+ live channels, 198,000+ on-demand films and series in 4K UHD, five simultaneous screens and a built-in VPN — from £12.99.",
             brand: { "@type": "Brand", name: SITE_NAME },
             offers: PRICING_PLANS.map((plan) => ({
               "@type": "Offer",
-              name: `${plan.name} Fast IPTV Plan`,
+              name: `${plan.name} IPTV Subscription`,
               price: plan.price.toFixed(2),
               priceCurrency: "GBP",
               availability: "https://schema.org/InStock",

@@ -106,14 +106,14 @@ export default function PricingSection() {
         >
           <span className="inline-flex items-center gap-2 rounded-full bg-violet-50 border border-violet-200 px-5 py-2 text-sm font-semibold text-violet-700 mb-5">
             <Gem className="h-4 w-4" />
-            Same Speed · Four Price Points
+            Four Plans · One Checkout · Instant Delivery
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-5">
-            Fast IPTV Plans &mdash;{" "}
-            <span className="gradient-text">Same Speed, Four Price Points</span>
+            Buy IPTV &mdash;{" "}
+            <span className="gradient-text">Four Plans, One Checkout, Instant Delivery</span>
           </h2>
           <p className="mx-auto max-w-2xl text-base text-muted leading-relaxed">
-            One service, four terms. Every plan runs on the same infrastructure at the same speed. The only variable is commitment length and savings.
+            Every plan delivers the identical experience: 37,000 channels, 4K, VPN, five screens and 60-second activation. Longer terms unlock bigger savings.
           </p>
         </motion.div>
 
